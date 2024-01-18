@@ -32,6 +32,10 @@ body {
 .nav li {
 	padding-inline: 10px;
 }
+.nav li:hover {
+	cursor: pointer;
+}
+/* ajout cursor pointer */
 
 .nav a {
 	text-decoration: none;
