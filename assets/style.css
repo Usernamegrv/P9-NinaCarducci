@@ -53,7 +53,6 @@ body {
 	padding-block: 100px;
 	position: relative;
 }
-
 .picture.left::before {
 	content: " ";
 	background-color: #e5975f;
@@ -94,10 +93,7 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
-
-#gallery {
-	/*	min-height: 100vh; */
-}
+/* suppresion style non utilisé */
 .title {
 	text-align: center;
 	padding-block: 2em;

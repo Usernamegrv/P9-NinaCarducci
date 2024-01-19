@@ -3,8 +3,8 @@
   <!-- Ajout lang -->
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
-    <!-- ajout min utilisation version minimisée -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" defer />
+    <!-- ajout min utilisation version minimisée + defer-->
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -95,6 +95,7 @@
               src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webP"
               class="d-block w-100"
               alt="photo d'un homme en costard"
+              loading="lazy"
             />
           </div>
           <div class="carousel-item">
@@ -102,6 +103,7 @@
               src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webP"
               class="d-block w-100"
               alt="photo d'une foule en concert"
+              loading="lazy"
             />
           </div>
           <div class="carousel-item">
@@ -109,6 +111,7 @@
               src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webP"
               class="d-block w-100"
               alt="photo d'un couple se mariant"
+              loading="lazy"
             />
           </div>
         </div>
@@ -134,7 +137,11 @@
     </div>
     <div id="about">
       <div class="picture left">
-        <img src="./assets/images/nina.webP" alt="photo de Nina Carducci" />
+        <img
+          src="./assets/images/nina.webP"
+          alt="photo de Nina Carducci"
+          loading="lazy"
+        />
       </div>
       <div id="about-me">
         <h2 class="about-me__title">À propos de moi</h2>
@@ -166,54 +173,63 @@
             class="gallery-item"
             src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webP"
             alt="photo d'une foule en concert"
+            loading="lazy"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
             src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webP"
             alt=" photo d'un homme en costard"
+            loading="lazy"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
             src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webP"
             alt="photo de deux femmes au travail"
+            loading="lazy"
           />
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
             src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webP"
             alt="photo de mains qui se joignent"
+            loading="lazy"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
             src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webP"
             alt="photo portrait de Ade tunji"
+            loading="lazy"
           />
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
             src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webP"
             alt="photo d'un couple de mariés"
+            loading="lazy"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
             src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webP"
             alt="photo portrait de Nino van prattenburg"
+            loading="lazy"
           />
           <img
             data-gallery-tag="Concert"
             class="gallery-item"
             src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webP"
             alt="photo d'un artiste sur scène"
+            loading="lazy"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
             src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webP"
             alt="photo d'une femme au travail"
+            loading="lazy"
           />
         </div>
       </div>
@@ -318,6 +334,7 @@
             <img
               src="./assets/images/camera.webP"
               alt="image d'un appareil photo"
+              loading="lazy"
             />
           </div>
         </div>
