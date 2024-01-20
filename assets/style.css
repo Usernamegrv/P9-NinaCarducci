@@ -127,6 +127,9 @@ body {
 	object-fit: cover;
 	padding: 0.5em;
 }
+.gallery-item:hover {
+	cursor: zoom-in;
+}
 .mg-prev,
 .mg-next {
 	width: 30px;
