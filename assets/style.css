@@ -18,7 +18,8 @@ body {
 	align-items: center;
 }
 
-.top-header .name {
+.top-header .name,
+.location .name {
 	font-size: 26px;
 }
 
@@ -248,11 +249,11 @@ input[type="submit"] {
 .location {
 	color: black;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: space-between;
 	width: 100%;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	background: #beb45a;
 	padding: 10px;
 }
 
