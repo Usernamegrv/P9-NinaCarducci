@@ -255,7 +255,9 @@ input[type="submit"] {
 	width: 100%;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	padding: 10px;
+	padding-inline: 100px;
+	padding-block: 30px;
+	align-items: center;
 }
 
 @media all and (max-width: 1180px) {
