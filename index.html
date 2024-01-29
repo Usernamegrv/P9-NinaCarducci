@@ -347,61 +347,69 @@
     <div id="services">
       <h3 class="title">Mes services</h3>
       <div class="container">
-        <div class="service">
+        <div class="service" itemscope itemtype="https://schema.org/Offer">
           <div class="service__description">
-            <div itemscope itemtype="https://schema.org/Offer">
-              <h3><span itemprop="name">Shooting photo</span></h3>
-              <p>
-                Pour capturer vos moments les plus précieux et garder un
-                souvenir impérissable. Je me déplace en Île-de-France pour
-                réaliser vos photos
-              </p>
-            </div>
-            <div class="service__price">
-              <div itemprop="price" content="350" currency="EUR">
-                <h4><span itemprop="price">350€</span>/demi journée</h4>
-                <span>Matériel, déplacement inclus</span>
-              </div>
+            <h3><span itemprop="name">Shooting photo</span></h3>
+            <p>
+              Pour capturer vos moments les plus précieux et garder un souvenir
+              impérissable. Je me déplace en Île-de-France pour réaliser vos
+              photos
+            </p>
+          </div>
+          <div class="service__price">
+            <div
+              itemprop="priceSpecification"
+              itemscope
+              itemtype="https://schema.org/UnitPriceSpecification"
+            >
+              <h4><span itemprop="price">350</span>€/demi journée</h4>
+              <span>Matériel, déplacement inclus</span>
             </div>
           </div>
         </div>
-        <div class="service">
+
+        <div class="service" itemscope itemtype="https://schema.org/Offer">
           <div class="service__description">
-            <div itemscope itemtype="https://schema.org/Offer">
-              <h3><span itemprop="name">Retouches</span></h3>
-              <p>
-                Vous souhaitez retoucher vos photos pour un résultat
-                professionnel? Bénéficiez d'un rendu optimal pour vos
-                publications
-              </p>
-            </div>
-            <div class="service__price">
-              <div itemprop="price" content="50" currency="EUR">
-                <h4><span itemprop="price">50€</span>/photo</h4>
-                <span>2 AR par photo</span>
-              </div>
+            <h3><span itemprop="name">Retouches</span></h3>
+            <p>
+              Vous souhaitez retoucher vos photos pour un résultat
+              professionnel? Bénéficiez d'un rendu optimal pour vos publications
+            </p>
+          </div>
+          <div class="service__price">
+            <div
+              itemprop="priceSpecification"
+              itemscope
+              itemtype="https://schema.org/UnitPriceSpecification"
+            >
+              <h4><span itemprop="price">50</span>€/photo</h4>
+              <span>2 AR par photo</span>
             </div>
           </div>
         </div>
-        <div class="service">
+
+        <div class="service" itemscope itemtype="https://schema.org/Offer">
           <div class="service__description">
-            <div itemscope itemtype="https://schema.org/Offer">
-              <h3><span itemprop="name">Album photo</span></h3>
-              <p>
-                Partagez avec vos proches et vos clients les photos des moments
-                partagés ensemble à travers un album photo personnalisé
-              </p>
-            </div>
-            <div class="service__price">
-              <div itemprop="price" content="400" currency="EUR">
-                <h4><span itemprop="price">400€</span>/album A4</h4>
-                <span>30 pages recto/verso</span>
-              </div>
+            <h3><span itemprop="name">Album photo</span></h3>
+            <p>
+              Partagez avec vos proches et vos clients les photos des moments
+              partagés ensemble à travers un album photo personnalisé
+            </p>
+          </div>
+          <div class="service__price">
+            <div
+              itemprop="priceSpecification"
+              itemscope
+              itemtype="https://schema.org/UnitPriceSpecification"
+            >
+              <h4><span itemprop="price">400</span>€/album A4</h4>
+              <span>30 pages recto/verso</span>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="quote">
       <figure>
         <blockquote>
@@ -460,24 +468,42 @@
     <footer>
       <div class="location">
         <h3 class="name">Nina Carducci</h3>
-        <div class="meta">
-          <div itemscope itemtype="http://schema.org/Photographer">
-            <span itemprop="name">Nina Carducci - Photographe</span>
+        <!-- Generated using https://microdatagenerator.org/localbusiness-microdata-generator/ -->
+        <div itemscope itemtype="https://schema.org/LocalBusiness">
+          <div itemprop="name">Photographe</div>
+          <div><span itemprop="telephone">0556677889</span></div>
+
+          <div itemprop="paymentAccepted" style="display: none">
+            cash, check, credit card
+          </div>
+          <meta
+            itemprop="openingHours"
+            style="display: none"
+            datetime="Mo,Tu,We,Th,Fr 10:00-21:00"
+          />
+          <div
+            itemtype="http://schema.org/GeoCoordinates"
+            itemscope=""
+            itemprop="geo"
+          >
+            <meta itemprop="latitude" content="44.84659" />
+            <meta itemprop="longitude" content="0.60660" />
           </div>
           <div
-            itemprop="address"
-            itemscope
             itemtype="http://schema.org/PostalAddress"
+            itemscope=""
+            itemprop="address"
           >
-            <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
-            <span itemprop="addressLocality">Bordeaux</span>
-            <span itemprop="postalCode">33200</span>
+            <div itemprop="streetAddress">68 avenue Alsace-Lorraine</div>
+            <div>
+              <span itemprop="addressLocality">Bordeaux</span>,
+              <span itemprop="addressRegion"></span>
+              <span itemprop="postalCode">33200</span>
+            </div>
           </div>
-          <span itemprop="telephone">05 56 67 78 89</span>
         </div>
       </div>
     </footer>
-
     <!-- ajout balises microdonnées -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
