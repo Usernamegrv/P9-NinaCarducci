@@ -250,17 +250,24 @@ input[type="submit"] {
 .item_name {
 	display: none;
 }
-.location {
-	color: black;
+.container-footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 100%;
-	align-items: flex-start;
-	flex-wrap: wrap;
-	padding-inline: 100px;
-	padding-block: 30px;
 	align-items: center;
+	flex-wrap: wrap;
+}
+.container-footer h3 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+.location {
+	color: black;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	flex-direction: column;
+	padding: 10px;
 }
 
 @media all and (max-width: 1180px) {
@@ -386,5 +393,8 @@ input[type="submit"] {
 	#services h3 {
 		margin-bottom: 0;
 		padding-bottom: 0;
+	}
+	.location {
+		align-items: flex-start;
 	}
 }

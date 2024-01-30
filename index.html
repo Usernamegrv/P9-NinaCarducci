@@ -54,37 +54,46 @@
   </head>
 
   <body>
+    <!-- Generated using https://microdatagenerator.org/localbusiness-microdata-generator/ -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Dentist",
-        "name": "jaber Sirraj",
+        "@type": "Photographer",
+        "name": "Nina Carducci - Photographe",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Rue Guercif N°1 - Mhannech 2",
-          "addressLocality": "TETOUAN",
-          "addressRegion": "Tanger",
-          "postalCode": "93000"
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "addressRegion": "FR",
+          "postalCode": "33200"
         },
-        "email": "sir_jaber@yahoo.fr",
-        "telePhone": "+212672633009",
-        "openingHours": "Mo,Tu 0-0",
+        "image": "https://raw.githubusercontent.com/Usernamegrv/P9-NinaCarducci/main/assets/images/nina.webP",
+        "telePhone": "0556677889",
+        "url": "https://usernamegrv.github.io/P9-NinaCarducci/",
+        "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday"],
-            "opens": "0",
-            "closes": "0"
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
           }
         ],
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": "45664",
-          "longitude": "46546"
+          "latitude": "44.84659",
+          "longitude": "0.60660"
         },
-        "priceRange": "$"
+        "priceRange": "$$"
       }
     </script>
+    <!-- ajout itemprop -->
     <header>
       <div class="top-header">
         <h1 class="name">Nina Carducci</h1>
@@ -496,49 +505,13 @@
     </div>
     <!-- ajout footer  -->
     <footer>
-      <div class="location">
+      <div class="container-footer">
         <h3 class="name">Nina Carducci</h3>
-        <!-- Generated using https://microdatagenerator.org/localbusiness-microdata-generator/ -->
-        <div itemscope itemtype="https://schema.org/LocalBusiness">
-          <div class="item_name" itemprop="name">Photographe</div>
-          <div><span itemprop="telephone">0556677889</span></div>
-          <div itemprop="paymentAccepted" style="display: none">
-            cash, check, credit card
-          </div>
-          <meta
-            itemprop="openingHours"
-            style="display: none"
-            datetime="Mo,Tu,We,Th,Fr 10:00-21:00"
-          />
-          <div
-            itemtype="http://schema.org/GeoCoordinates"
-            itemscope=""
-            itemprop="geo"
-          >
-            <meta itemprop="latitude" content="44.84659" />
-            <meta itemprop="longitude" content="0.60660" />
-          </div>
-          <div
-            itemtype="http://schema.org/PostalAddress"
-            itemscope=""
-            itemprop="address"
-          >
-            <div itemprop="streetAddress">68 avenue Alsace-Lorraine</div>
-            <div>
-              <span itemprop="addressLocality">Bordeaux</span>,
-              <span itemprop="addressRegion"></span>
-              <span itemprop="postalCode">33200</span>
-            </div>
-          </div>
-
-          <img
-            src="https://raw.githubusercontent.com/Usernamegrv/P9-NinaCarducci/main/assets/images/nina.webP"
-            alt="photographie de Nina Carducci"
-            itemprop="image"
-            style="display: none"
-          />
-
-          <div itemprop="priceRange" style="display: none">$$</div>
+        <div class="location">
+          <span>0556677889</span>
+          <span>68 avenue Alsace-Lorraine</span>
+          <span>Bordeaux</span>
+          <span>33200</span>
         </div>
       </div>
     </footer>
