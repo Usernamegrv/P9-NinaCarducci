@@ -6,6 +6,10 @@ BrowserMatch ^Mozilla/4\.0[678] no-gzip
 BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 
+<IfModule mod_headers.c>
+    Header unset ETag
+</IfModule>
+FileETag None
 
 ## Cache-Control Headers ##
 <IfModule mod_headers.c>
